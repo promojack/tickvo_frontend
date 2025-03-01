@@ -1,12 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #fe0000;
-  --color-secondary: #ffcccc;
-  --color-accent1: #373737;
-  --color-accent2: #47008c;
-  --color-graytxt: #6c757d;
-  --color-noir: #2d2d2d;
+  --color-background1: #f7f7f5;
+  --color-background2: #2b2e4d;
+  --color-primary1: #1a73e8;
+  --color-primary2: #d90000;
+  --color-secondary1: #00c853;
+  --color-secondary2: #9e9e9e;
+  --color-secondary3: #333333;
+  --color-support1: #e3f2fd;
+  --color-support2: #f3d2d0;
   --color-gray1: #f9fafb;
   --color-gray2: #f3f4f6;
   --color-gray3: #e5e7eb;
@@ -16,4 +19,89 @@
   --color-gray7: #4b5563;
   --color-gray8: #374151;
   --color-gray9: #1f2937;
+  --font-sf900: "SF-Pro-Display-Black";
+  --font-sf900i: "SF-Pro-Display-BlackItalic";
+  --font-sf700: "SF-Pro-Display-Bold";
+  --font-sf700i: "SF-Pro-Display-BoldItalic";
+  --font-sf500: "SF-Pro-Display-Medium";
+  --font-sf500i: "SF-Pro-Display-MediumItalic";
+  --font-sf400: "SF-Pro-Display-Regular";
+  --font-sf400i: "SF-Pro-Display-RegularItalic";
+  --font-sf300: "SF-Pro-Display-Light";
+  --font-sf300i: "SF-Pro-Display-LightItalic";
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Black";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-BlackItalic";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-Blackitalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-BoldItalic";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-MediumItalic";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-RegularItalic";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-RegularItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-LightItalic";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/SF-Pro-Display-LightItalic.otf") format("opentype");
 }
